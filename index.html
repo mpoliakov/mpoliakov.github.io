@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="format-detection" content="telephone=no">
   <link rel="stylesheet" href="css/style.min.css">
-  <link rel="stylesheet" href="sass/blocks/billboard.scss">
 </head>
 <body>
 <div style="display:none;">
@@ -51,20 +50,20 @@
     </button>
     <div class="billboard">
       <h1 class="visually-hidden">Sedona</h1>
-      <img class="billboard__text" src="./img/text-sedona-index.svg" height="389" width="320" alt="Sedona">
+      <img class="billboard__text" src="img/text-sedona-index.svg" height="389" width="320" alt="Sedona">
     </div>
   </div>
 </header>
 <main class="main main--index">
   <div class="main__text">
-    <h2 class="main__title heading--2">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
+    <h2 class="main__title heading heading--2">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
     <p class="main__desc">Рассмотрим 5 причин, по которым Селона круче, чем Гранд Каньон!</p>
   </div>
   <ul class="reasons-list">
     <li class="reasons-list__item reason reason--blue reason--triangle">
-      <h3 class="reason__title heading--2">Настоящий<br> городок</h3>
+      <h3 class="reason__title heading heading--2">Настоящий<br> городок</h3>
       <p class="reason__number">— №1 —</p>
-      <p class="reason__desc">Седона не аттракцион для туристов, там течет своя жизнь</p>
+      <p class="reason__desc">Седона не аттракцион для туристов,<br> там течет своя жизнь</p>
     </li>
     <li class="reasons-list__item reason reason--photo">
       <picture>
@@ -81,29 +80,29 @@
         <svg class="reason__icon reason__icon--house" width="75" height="72">
           <use xlink:href="#icon-house"></use>
         </svg>
-        <h3 class="reason__title heading--2">Жильё</h3>
+        <h3 class="reason__title heading heading--2">Жильё</h3>
         <p class="reason__desc">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
       </div>
       <div class="reason reason--with-icon reason--gift">
         <svg class="reason__icon reason__icon--gift" width="63" height="75">
           <use xlink:href="#icon-gift"></use>
         </svg>
-        <h3 class="reason__title heading--2">Сувениры</h3>
+        <h3 class="reason__title heading heading--2">Сувениры</h3>
         <p class="reason__desc">Не только китайского,<br> но и местного производства!</p>
       </div>
       <div class="reason reason--with-icon reason--burger">
         <svg class="reason__icon reason__icon--burger" width="76" height="69">
           <use xlink:href="#icon-burger"></use>
         </svg>
-        <h3 class="reason__title heading--2">Еда</h3>
+        <h3 class="reason__title heading heading--2">Еда</h3>
         <p class="reason__desc">Всегда заказывайте фирменный бургер, вы<br> не разочаруетесь!</p>
       </div>
     </li>
     <li class="reasons-list__item reasons-list__item--group">
       <div class="reason reason--blue reason--bridge">
-        <h3 class="reason__title heading--2">Там есть<br> мост дьявола</h3>
+        <h3 class="reason__title heading heading--2">Там есть<br> мост дьявола</h3>
         <p class="reason__number">— №2 —</p>
-        <p class="reason__desc">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+        <p class="reason__desc">Да, по нему можно пройти!<br> Если вы осмелитесь, конечно</p>
       </div>
       <div class="reason reason--photo">
         <picture>
@@ -117,35 +116,28 @@
       </div>
     </li>
     <li class="reasons-list__item reason reason--border">
-      <h3 class="reason__title heading--2">Небольшая<br> площадь</h3>
+      <h3 class="reason__title heading heading--2">Небольшая<br> площадь</h3>
       <p class="reason__number">— №3 —</p>
-      <p class="reason__desc">Все интересные места находятся очень близко</p>
+      <p class="reason__desc">Все интересные места находятся<br> очень близко</p>
     </li>
     <li class="reasons-list__item reason reason--border">
-      <h3 class="reason__title heading--2">Красивая<br> дорога</h3>
+      <h3 class="reason__title heading heading--2">Красивая<br> дорога</h3>
       <p class="reason__number">— №4 —</p>
-      <p class="reason__desc">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+      <p class="reason__desc">Ехать в Седону из Лас-Вегаса совсем<br> не скучно!</p>
     </li>
     <li class="reasons-list__item reason">
-      <h3 class="reason__title heading--2">Мало<br> туристов</h3>
+      <h3 class="reason__title heading heading--2">Мало<br> туристов</h3>
       <p class="reason__number">— №5 —</p>
-      <p class="reason__desc">Большинство едет в Гранд Каньон и толпится там</p>
+      <p class="reason__desc">Большинство едет в Гранд Каньон и<br> толпится там</p>
     </li>
   </ul>
   <div class="find-hotel">
-    <h3 class="find-hotel__title heading--1">Заинтересовались?</h3>
+    <h3 class="find-hotel__title heading heading--1">Заинтересовались?</h3>
     <p class="find-hotel__desc">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
     <a class="btn btn--w-100" href="#">Найти гостиницу</a>
   </div>
   <div class="map">
-    <picture>
-      <source type="image/webp" media="(min-width: 1200px)" srcset="img/bg-map-desktop@1x.webp 1x, img/bg-map-desktop@2x.webp 2x">
-      <source type="image/webp" media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.webp 1x, img/bg-map-tablet@2x.webp 2x">
-      <source type="image/webp" srcset="img/bg-map-mobile@1x.webp 1x, img/bg-map-mobile@2x.webp 2x">
-      <source media="(min-width: 1200px)" srcset="img/bg-map-desktop@1x.jpg 1x, img/bg-map-desktop@2x.jpg 2x">
-      <source media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.jpg 1x, img/bg-map-tablet@2x.jpg 2x">
-      <img src="img/bg-map-mobile@1x.jpg" srcset="img/bg-map-mobile@2x.jpg 2x" alt="Карта">
-    </picture>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1344582.2253988027!2d-112.37566343884315!3d35.18108384579774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1540706907769" frameborder="0" style="border:0" allowfullscreen=""></iframe>
   </div>
 </main>
 <footer class="footer">
