@@ -1,0 +1,13 @@
+<div class="emails-editor">
+    <div ng-repeat="email in emails" class="email {{ emailHelper.isEmailValid(email) ? '' : 'invalid'}}">
+        <span class="content">{{ email }}</span>
+        <span class="btn-delete" data-id="{{email}}" ng-click="onDeleteEmail($event)">&#215;</span>
+    </div>
+    <input ng-model="emailInput"
+            type="text"
+            placeholder="add more people..."
+            ng-keydown="onKeyDown($event)"
+            ng-paste="onPaste($event)"
+            ng-blur="onBlur()"
+    />
+</div>
