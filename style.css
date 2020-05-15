@@ -1,0 +1,45 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.resume-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+  outline: none;
+}
+
+.resume-btn:hover,
+.resume-btn:active,
+.resume-btn:focus {
+  background-color: black;
+  color: white;
+  transition: all 0.3s;
+}
+
+.hint {
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+
