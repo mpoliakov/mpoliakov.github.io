@@ -17,7 +17,7 @@ for (let i = 0; i < points.length; i++) {
     };
 }
 
-for (let i = 0; i < 3000; i++) {
+function step(i) {
     ctx.beginPath();
     ctx.moveTo(points[0].x, points[0].y);
 
@@ -48,6 +48,21 @@ for (let i = 0; i < 3000; i++) {
     reset();
     ctx.fill();
 }
+
+
+//or (let i = 0; i < 3000; i++) {
+//    step();
+//}
+
+let i = 0;
+
+requestAnimationFrame(function f() {
+    step(i)
+
+    if (i++ <= 3000) {
+        requestAnimationFrame(f);
+    }
+})
 
 function move(point) {
     if (point.x > width || point.x < 0) {
