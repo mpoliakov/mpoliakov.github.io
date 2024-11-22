@@ -29,8 +29,8 @@ for (let i = 0; i < 3000; i++) {
         const grd = ctx.createLinearGradient(points[j + 1 - orientation].x, points[j + 1 - orientation].y, points[j + orientation].x * 1.1, points[j + orientation].y * 1.1);
 
         const palette = [
-            {offset: 0.5, hex: '#36977C'},
-            {offset: 1, hex: '#EBF552'}
+            {offset: 0.5, hex: '#1DE9A3'},
+            {offset: 1, hex: '#E91D63'}
         ];
 
         palette.forEach((color) => grd.addColorStop(color.offset, color.hex));
